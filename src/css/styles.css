@@ -45,6 +45,10 @@ main {
   box-shadow: var(--box-shadow);
 }
 
+.list__item:hover {
+  opacity: 0.7;
+}
+
 .list__item--dragged {
   background-color: var(--color-button-hover);
 }
