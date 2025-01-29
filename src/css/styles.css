@@ -2,6 +2,7 @@ body {
   width: 100%;
   height: 100vh;
   background-color: var(--color-background-dark);
+  color: var(--color-text-light);
 }
 
 .header {
@@ -13,6 +14,10 @@ body {
   font-size: var(--font-size-medium);
 }
 
+main {
+  width: 100%;
+  height: 100%;
+}
 .main-container {
   width: 100%;
   height: 100%;
@@ -29,4 +34,29 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-small);
+}
+
+.list__item {
+  padding: var(--spacing-medium);
+  background-color: var(--color-background-medium);
+  cursor: grab;
+  font-weight: bold;
+  border-radius: var(--border-radius-medium);
+}
+
+.list__item--dragged {
+  background-color: var(--color-button-hover);
+}
+
+.list__compar.button {
+  min-width: 160px;
+  min-height: 32px;
+}
+
+.correct {
+  color: forestgreen;
+}
+
+.icorrect {
+  color: var(--color-text-error);
 }
