@@ -8,7 +8,7 @@
   --color-button-hover: #5f1854;
   --color-text-dark: #003366;
   --color-text-light: #f0f8ff;
-  --color-text-error: red;
+  --color-text-error: rgb(238, 79, 79);
 
   /* SPACING */
   --spacing-x-small: 0.25rem;
